@@ -1,0 +1,11 @@
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\bin\Debug\netcoreapp3.1\MISA.AMIS.CORE.deps.json
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\bin\Debug\netcoreapp3.1\MISA.AMIS.CORE.dll
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\bin\Debug\netcoreapp3.1\MISA.AMIS.CORE.pdb
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.Resource.resources
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.dll
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.CORE\obj\Debug\netcoreapp3.1\MISA.AMIS.CORE.pdb

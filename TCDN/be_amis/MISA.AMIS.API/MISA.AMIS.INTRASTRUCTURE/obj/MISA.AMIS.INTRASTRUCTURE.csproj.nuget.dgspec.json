@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\MISA.AMIS.INTRASTRUCTURE.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj",
+        "projectName": "MISA.AMIS.CORE",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\MISA.AMIS.INTRASTRUCTURE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\MISA.AMIS.INTRASTRUCTURE.csproj",
+        "projectName": "MISA.AMIS.INTRASTRUCTURE",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\MISA.AMIS.INTRASTRUCTURE.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.CORE\\MISA.AMIS.CORE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
