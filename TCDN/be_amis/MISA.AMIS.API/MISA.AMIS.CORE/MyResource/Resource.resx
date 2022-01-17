@@ -117,19 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ErrorContactMisa" xml:space="preserve">
-    <value>Có lỗi xảy ra vui lòng liên hệ MISA để được trợ giúp</value>
+  <data name="FeMale" xml:space="preserve">
+    <value>Nữ</value>
   </data>
-  <data name="ErrorUserMessenger" xml:space="preserve">
-    <value>Ngày sinh không đúng định dạng</value>
+  <data name="Male" xml:space="preserve">
+    <value>Nam</value>
   </data>
-  <data name="InvalidData" xml:space="preserve">
-    <value>Dữ liệu không hợp lệ</value>
+  <data name="Msg_DateNotValid" xml:space="preserve">
+    <value>{0} phải nhỏ hơn ngày hiện tại</value>
   </data>
-  <data name="NotValidDateOfBirth" xml:space="preserve">
-    <value>Ngày sinh không đúng định dạng</value>
+  <data name="Msg_Duplicate" xml:space="preserve">
+    <value>Thông tin {0} đã có trên hệ thống.</value>
   </data>
-  <data name="NotValidIdentityDate" xml:space="preserve">
-    <value>Ngày cấp không đúng định dạng</value>
+  <data name="Msg_EmailNotValid" xml:space="preserve">
+    <value>Email không đúng định dạng</value>
+  </data>
+  <data name="Msg_Empty" xml:space="preserve">
+    <value>Thông tin {0} không được phép để trống.</value>
+  </data>
+  <data name="Msg_IsNotValid" xml:space="preserve">
+    <value>Dữ liệu không hợp lệ , vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Khác</value>
   </data>
 </root>

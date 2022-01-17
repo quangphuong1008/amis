@@ -47,3 +47,7 @@ C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.API\obj\Debug\net5.0\
 C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.API\obj\Debug\net5.0\ref\MISA.AMIS.API.dll
 C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.API\obj\Debug\net5.0\MISA.AMIS.API.pdb
 C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.API\obj\Debug\net5.0\MISA.AMIS.API.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.API\bin\Debug\net5.0\EPPlus.dll
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.API\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.API\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\ASUS\Desktop\TCDN\be_amis\MISA.AMIS.API\MISA.AMIS.API\bin\Debug\net5.0\Newtonsoft.Json.dll

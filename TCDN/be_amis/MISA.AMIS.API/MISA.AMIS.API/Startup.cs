@@ -1,15 +1,14 @@
-﻿using AMIS.Core.Interfaces.Repository;
-using AMIS.Core.Interfaces.Services;
-using AMIS.Core.Sevices;
-using AMIS.Infrastruture.Repository;
+﻿using AMISA.AMIS.CORE.Interfaces.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MISA.AMIS.CORE.Interfaces.Repository;
+using MISA.AMIS.CORE.Interfaces.Services;
+using MISA.AMIS.CORE.Sevices;
+using MISA.AMIS.INTRASTRUCTURE.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,7 +36,7 @@ namespace AMIS
                        .AllowAnyHeader();
             }));
 
-          //  EmployeeRepository._connectionString = Configuration.GetConnectionString("AmisConnection");
+   
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -45,7 +44,13 @@ namespace AMIS
             });
             // Xử lý DI (Dependency Injection):
             services.AddScoped<IDepartmentRepository, DepartmentRepository>();
-            services.AddScoped<IDepartmentService, DepartmentService>();
+            services.AddScoped<IDepartmentService, MISA.AMIS.CORE.Sevices.DepartmentService>();
+
+
+            services.AddScoped<IAccountObjectRepository, AccountObjectRepository>();
+            services.AddScoped<IAccountObjectService, AccountObjectService>();
+
+           
 
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
             services.AddScoped<IEmployeeService, EmployeeService>();

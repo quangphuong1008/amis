@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y2+as/SFrxW+y4vaWXS2mPRB/WwTzfav2gGI8bf7ExuNgoFaqwlepY4yEVSWl22sBzTeo8iePqTkRXHoVN8onQ==",
+  "dgSpecHash": "d8xDdGh0ZpUexYzxZqSMSakgqxKhLW9IBN82Qk7lw6saFie1BXNs8lTulSoSbVjSLUqnEbHBvaSV/gaFN9NMow==",
   "success": true,
   "projectFilePath": "C:\\Users\\ASUS\\Desktop\\TCDN\\be_amis\\MISA.AMIS.API\\MISA.AMIS.INTRASTRUCTURE\\MISA.AMIS.INTRASTRUCTURE.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\mysql.data\\8.0.27\\mysql.data.8.0.27.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\mysqlconnector\\2.1.0\\mysqlconnector.2.1.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",

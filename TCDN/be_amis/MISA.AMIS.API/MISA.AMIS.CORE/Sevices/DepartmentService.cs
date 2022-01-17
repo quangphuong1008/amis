@@ -1,13 +1,14 @@
-﻿using AMIS.Core.Entities;
-using AMIS.Core.Interfaces.Repository;
-using AMIS.Core.Interfaces.Services;
+﻿using MISA.AMIS.CORE.Entities;
+
+using MISA.AMIS.CORE.Interfaces.Repository;
+using MISA.AMIS.CORE.Interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AMIS.Core.Sevices
+namespace MISA.AMIS.CORE.Sevices
 {
     public class DepartmentService: BaseService<Department>, IDepartmentService
     {
@@ -16,5 +17,6 @@ namespace AMIS.Core.Sevices
         {
             _departmentRepository = departmentRepository;
         }
+
     }
 }

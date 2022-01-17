@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AMIS.Core {
+namespace MISA.AMIS.CORE.MyResource {
     using System;
     
     
@@ -22,7 +22,7 @@ namespace AMIS.Core {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resource {
+    internal class Resource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,10 +36,10 @@ namespace AMIS.Core {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AMIS.Core.Resource", typeof(Resource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MISA.AMIS.CORE.MyResource.Resource", typeof(Resource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +51,7 @@ namespace AMIS.Core {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,47 +61,74 @@ namespace AMIS.Core {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Có lỗi xảy ra vui lòng liên hệ MISA để được trợ giúp.
+        ///   Looks up a localized string similar to Nữ.
         /// </summary>
-        public static string ErrorContactMisa {
+        internal static string FeMale {
             get {
-                return ResourceManager.GetString("ErrorContactMisa", resourceCulture);
+                return ResourceManager.GetString("FeMale", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ngày sinh không đúng định dạng.
+        ///   Looks up a localized string similar to Nam.
         /// </summary>
-        public static string ErrorUserMessenger {
+        internal static string Male {
             get {
-                return ResourceManager.GetString("ErrorUserMessenger", resourceCulture);
+                return ResourceManager.GetString("Male", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dữ liệu không hợp lệ.
+        ///   Looks up a localized string similar to {0} phải nhỏ hơn ngày hiện tại.
         /// </summary>
-        public static string InvalidData {
+        internal static string Msg_DateNotValid {
             get {
-                return ResourceManager.GetString("InvalidData", resourceCulture);
+                return ResourceManager.GetString("Msg_DateNotValid", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ngày sinh không đúng định dạng.
+        ///   Looks up a localized string similar to Thông tin {0} đã có trên hệ thống..
         /// </summary>
-        public static string NotValidDateOfBirth {
+        internal static string Msg_Duplicate {
             get {
-                return ResourceManager.GetString("NotValidDateOfBirth", resourceCulture);
+                return ResourceManager.GetString("Msg_Duplicate", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ngày cấp không đúng định dạng.
+        ///   Looks up a localized string similar to Email không đúng định dạng.
         /// </summary>
-        public static string NotValidIdentityDate {
+        internal static string Msg_EmailNotValid {
             get {
-                return ResourceManager.GetString("NotValidIdentityDate", resourceCulture);
+                return ResourceManager.GetString("Msg_EmailNotValid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thông tin {0} không được phép để trống..
+        /// </summary>
+        internal static string Msg_Empty {
+            get {
+                return ResourceManager.GetString("Msg_Empty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dữ liệu không hợp lệ , vui lòng kiểm tra lại..
+        /// </summary>
+        internal static string Msg_IsNotValid {
+            get {
+                return ResourceManager.GetString("Msg_IsNotValid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Khác.
+        /// </summary>
+        internal static string Other {
+            get {
+                return ResourceManager.GetString("Other", resourceCulture);
             }
         }
     }

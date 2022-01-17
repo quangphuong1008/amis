@@ -1,19 +1,32 @@
-﻿using AMIS.Core.Sevices;
+﻿
+using MISA.AMIS.CORE.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AMIS.Core.Entities
+namespace MISA.AMIS.CORE.Entities
 {
     public class ServiceResult
     {
-        public string devMsg { get; set; }
-        public string userMsg { get; set; }
-        public MISACode errorCode { get; set; }
-        public string moreInfo { get; set; }
-        public object data { get; set; }
-        public bool Success { get; set; } = true;
+
+        #region Property
+        /// <summary>
+        /// dữ liệu trả về trả về cho client sử dụng
+        /// </summary>
+        /// @Author nmquang 19-12-2021
+        public object Data { get; set; }
+
+        /// <summary>
+        /// Thông tin mô tả dữ liệu trả về
+        /// </summary>
+        public string Messeger { get; set; }
+
+        /// <summary>
+        /// Mã code biểu diễn thông tin trả về
+        /// </summary>
+        public MISAEnum MisaCode { get; set; }
+        #endregion
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace AMIS.Core.Sevices
+﻿namespace MISA.AMIS.CORE.Sevices
 {
     public enum MISACode
     {

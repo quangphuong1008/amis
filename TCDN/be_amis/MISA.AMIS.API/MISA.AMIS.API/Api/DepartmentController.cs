@@ -1,14 +1,15 @@
-﻿using AMIS.Core.Entities;
-using AMIS.Core.Interfaces.Repository;
-using AMIS.Core.Interfaces.Services;
+﻿
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MISA.AMIS.CORE.Entities;
+using MISA.AMIS.CORE.Interfaces.Repository;
+using MISA.AMIS.CORE.Interfaces.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AMIS.Api.Api
+namespace MISA.AMIS.API.Api
 {
     
     public class DepartmentController : AMISControlller<Department>
@@ -19,5 +20,6 @@ namespace AMIS.Api.Api
         {
             _departmentService = departmentService;
         } 
+
     }
 }
